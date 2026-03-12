@@ -35,5 +35,11 @@ ClinicDB https://drive.google.com/file/d/1ciqZwMs1smSGDlwQ6tsr6YzylrqQBn9n/view?
 TN3K https://drive.google.com/file/d/1LuKEMhrUGwFBlGCaej46WoooH89V3O8_/view?usp=drive_link
 
 # Content
-we present HKD, a generalized vision–language framework tailored for zero-shot settings to enhance semantic robustness and cross-domain adaptability. First, a knowledge distillation mechanism transfers semantic relevance and coexistent information from fine-tuned CLIP features, allowing the student model to capture intrinsic normal–abnormal relations without relying on real samples. Second, an Intensity-Adaptive Diffusion Anomaly Generation (IDAG) strategy synthesizes realistic and diverse pseudo-anomalies consistent with natural image distributions, thereby enriching the representation space and improving discrimination capability. Third, an object-agnostic textual prompt encodes generic notions of normality and abnormality independent of specific object semantics, effectively mitigating domain bias in textual representations.
+HKD is a vision–language framework for zero-shot anomaly detection that improves semantic robustness and cross-domain generalization.
+
+• Knowledge Distillation: Transfers semantic relevance and coexistent information from fine-tuned CLIP features, enabling the student model to learn intrinsic normal–abnormal relations without real anomaly samples.
+
+• IDAG (Intensity-Adaptive Diffusion Anomaly Generation): Generates realistic and diverse pseudo-anomalies aligned with natural image distributions to enrich training data and enhance discrimination.
+
+• Adaptive Text Prompts: Introduces generic normal/abnormal prompts independent of object categories, reducing domain bias in textual representations.
 
