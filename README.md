@@ -43,3 +43,7 @@ HKD is a vision–language framework for zero-shot anomaly detection that improv
 
 • Adaptive Text Prompts: Introduces generic normal/abnormal prompts independent of object categories, reducing domain bias in textual representations.
 
+# Result
+
+<img width="1507" height="1283" alt="single" src="https://github.com/user-attachments/assets/4e700f0e-c671-43e2-991c-30d2b2b86697" />
+
